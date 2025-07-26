@@ -1,4 +1,5 @@
-export default {
+const { defineConfig } = require('eslint')
+module.exports = defineConfig({
   "env": {
     "browser": true,
     "es6": true,
@@ -46,4 +47,4 @@ export default {
     "no-console": "error",
     "react/prop-types": 0
   }
-}
+})
